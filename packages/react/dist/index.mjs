@@ -121,16 +121,12 @@ var {
 });
 
 // src/index.tsx
-import { jsx } from "react/jsx-runtime";
 var Button = styled("button", {
   fontFamily: "$default",
   backgroundColor: "$ignite500",
   borderRadius: "$md",
   padding: "$4"
 });
-function App() {
-  return /* @__PURE__ */ jsx(Button, { children: "Hello World" });
-}
 export {
-  App
+  Button
 };
