@@ -1,9 +1,19 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Button } from '@atlantis-ui/react'
+import { Button, ButtonProps } from '@atlantis-ui/react'
 
 export default {
   title: 'Button',
   component: Button,
-} as Meta
 
-export const Primary: StoryObj = {}
+  args: {
+    children: 'Enviar',
+  },
+} as Meta<ButtonProps>
+
+export const Primary: StoryObj<ButtonProps> = {}
+
+export const Big: StoryObj<ButtonProps> = {
+  args: {
+    size: 'big',
+  },
+}
