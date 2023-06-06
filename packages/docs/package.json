@@ -30,8 +30,10 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "@atlantis-ui/eslint-config": "*",
+    "@atlantis-ui/ts-config": "*",
     "@atlantis-ui/react": "*",
     "@atlantis-ui/tokens": "*",
-    "@atlantis-ui/eslint-config": "*"
+    "polished": "^4.2.2"
   }
 }
